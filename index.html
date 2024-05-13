@@ -20,7 +20,7 @@
 
 <body id="page-body">
     <!-- navigation start-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolled" id="mainNavbar">
         <div class="container">
             <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link">VR Innovations</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
@@ -696,6 +696,12 @@
             </div>
         </div>
     </div>
+    <script>
+        window.addEventListener("scroll", function() {
+          var scrolled = window.scrollY > 0;
+          document.body.classList.toggle("scrolled", scrolled);
+        });
+      </script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/custom/extra.js"></script>
 </body>
