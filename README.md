@@ -1,6 +1,9 @@
 # Sanal Gerçeklik  Şirketi Temalı Web **Sites**
 
-![Web Sitesi Örneği](img/gif.gif)
+<div align="center">
+  <img src="img/gif.gif" alt="Web Sitesi Örneği" width="1920" height="1080">
+</div>
+
 <div align="center">
   <img src="img/logo/1.png" alt="Web Sitesi Örneği" width="200" height="200">
 </div>
